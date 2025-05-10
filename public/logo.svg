@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="60" viewBox="0 0 200 60" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .logo-text { font-family: Arial, sans-serif; font-weight: bold; }
+    .soft { fill: #4F46E5; }
+    .sell { fill: #4B5563; }
+    .dark .soft { fill: #6366F1; }
+    .dark .sell { fill: #D1D5DB; }
+  </style>
+  <text x="10" y="40" class="logo-text soft" font-size="32">Soft</text>
+  <text x="90" y="40" class="logo-text sell" font-size="32">Sell</text>
+</svg>

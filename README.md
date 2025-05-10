@@ -1,4 +1,16 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# SoftSell - Software License Resale Platform
+
+A responsive, single-page marketing website for a fictional software resale startup called SoftSell. This project showcases a modern React application built with Next.js and styled with Tailwind CSS.
+
+## Features Implemented
+
+- **Responsive Design**: Fully responsive layout for mobile, tablet, and desktop devices
+- **Modern UI/UX**: Clean and professional design with coherent color palette
+- **Component Architecture**: Well-organized component structure for maintainability
+- **Dark/Light Mode**: Toggle between light and dark themes with persistent preference storage
+- **Interactive Elements**: Animations and transitions using Framer Motion
+- **Form Validation**: Frontend validation for the contact form
+- **AI Chat Widget**: AI-powered customer chat integrated with Groq API (with fallback to simulated responses)
 
 ## Getting Started
 
@@ -16,21 +28,50 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Sections
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. **Hero Section**: Headline, subheading, and dual CTA buttons
+2. **How It Works**: Three-step process with icons and descriptions
+3. **Why Choose Us**: Four key benefits with icons and descriptions
+4. **Customer Testimonials**: Two customer testimonials with profile images
+5. **Contact Form**: Lead capture form with validation
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Framework**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: React Icons
+- **API Integration**: Groq AI API for chat functionality with Axios for API requests
+- **Deployment**: Ready for deployment on Vercel, Netlify, or GitHub Pages
+- **Frontend Validation**: Built-in form validation using React hooks
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Design Choices
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Color Palette**: Used a primary indigo/blue palette with complementary accent colors for a professional, trustworthy feel
+- **Typography**: Clean, modern sans-serif fonts for readability and professionalism
+- **Layout**: Spacious layout with clear section separation for improved readability
+- **Interactions**: Subtle animations and hover effects to enhance user experience
+- **Accessibility**: Ensured proper contrast ratios and semantic HTML elements
 
-## Deploy on Vercel
+## Bonus Features
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Dark/Light Mode**: Toggle button for switching between dark and light modes
+- **Animations**: Smooth transitions using Framer Motion
+- **Chat Widget**: AI-powered customer support chat simulation
+- **SEO Optimization**: Meta tags for improved search engine visibility
+- **Custom Logo and Favicon**: Created custom SVG assets
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Environment Setup
+
+Create a `.env.local` file in the root directory with the following variables:
+
+```
+GROQ_API_KEY=your_groq_api_key_here
+```
+
+For testing purposes, the application will fall back to simulated responses if no API key is provided.
+
+## Deployment
+
+This project is ready to be deployed on Vercel, Netlify, or GitHub Pages. Follow the respective platform's documentation for deployment instructions. Don't forget to set the environment variables on your hosting platform.
