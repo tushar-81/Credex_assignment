@@ -45,9 +45,8 @@ export default function TestimonialsSection() {
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
-              transition={{ duration: 0.5, delay: 0.2 }}
-            >
-              Don't just take our word for it. Here's what businesses are saying about their experience with SoftSell.
+              transition={{ duration: 0.5, delay: 0.2 }}            >
+              Don&apos;t just take our word for it. Here&apos;s what businesses are saying about their experience with SoftSell.
             </motion.p>
           </ClientOnly>
         </div>

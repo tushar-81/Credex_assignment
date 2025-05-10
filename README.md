@@ -74,4 +74,27 @@ For testing purposes, the application will fall back to simulated responses if n
 
 ## Deployment
 
-This project is ready to be deployed on Vercel, Netlify, or GitHub Pages. Follow the respective platform's documentation for deployment instructions. Don't forget to set the environment variables on your hosting platform.
+### Deploying to Vercel (Recommended)
+
+This project is optimized for Vercel deployment:
+
+1. **Connect your GitHub repository to Vercel**:
+   - Create an account on [Vercel](https://vercel.com)
+   - Click "New Project" and import this repository
+   - Select the appropriate framework preset (Next.js)
+
+2. **Set environment variables**:
+   - In the Vercel dashboard, go to your project
+   - Navigate to Settings > Environment Variables
+   - Add the `GROQ_API_KEY` variable with your actual API key
+
+3. **Deploy**:
+   - Vercel will automatically deploy your application
+   - Each push to the main branch will trigger a new deployment
+
+4. **Custom Domain (Optional)**:
+   - In the Vercel dashboard, go to your project
+   - Navigate to Settings > Domains
+   - Add your custom domain and follow the instructions
+
+The project includes a `vercel.json` configuration file with optimized settings for deployment.

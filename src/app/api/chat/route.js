@@ -63,7 +63,7 @@ export async function POST(request) {
         messages: [
           {
             role: "system", 
-            content: "You are an AI assistant for SoftSell, a company that helps businesses sell their unused software licenses. Respond concisely and helpfully with information about SoftSell's process, supported software types, pricing, and security. Keep answers brief (under 120 words). If you don't know an answer, refer users to contact support@softsell.com or call +1 (555) 123-4567."
+            content: "You are an AI assistant for SoftSell, a company that helps businesses sell their unused software licenses. Respond concisely and helpfully with information about SoftSell&apos;s process, supported software types, pricing, and security. Keep answers brief (under 120 words). If you don&apos;t know an answer, refer users to contact support@softsell.com or call +1 (555) 123-4567."
           },
           { 
             role: "user", 
