@@ -60,10 +60,9 @@ export default function TestimonialsSection() {
                 whileInView={{ opacity: 1, scale: 1 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: index * 0.2 }}
-              >
-                <FaQuoteLeft className="absolute top-8 left-8 text-primary/20 text-4xl" />
+              >                <FaQuoteLeft className="absolute top-8 left-8 text-primary/20 text-4xl" />
                 <div className="mb-6 text-gray-600 dark:text-gray-300 relative z-10 pt-6">
-                  "{testimonial.quote}"
+                  &ldquo;{testimonial.quote}&rdquo;
                 </div>
                 
                 <div className="flex items-center mt-6">
